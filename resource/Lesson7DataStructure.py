@@ -24,7 +24,7 @@ a = [66.25, 333, 333, 1, 1234.5]
 print(a)
 a.append(21)
 print(a)
-a.insert(2,22)
+a.insert(2, 22)
 print(a)
 a.remove(1)
 print(a)
@@ -46,7 +46,7 @@ stack.append(7)
 print(stack)
 print(stack.pop())
 print(stack)
-stack.clean()
+stack.clean()  # 报错
 print(stack)
 
 

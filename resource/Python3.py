@@ -6,16 +6,16 @@ Created on 2017年8月9日
 python特性
 '''
 
-x="a"
-y="b"
+x = "a"
+y = "b"
 # 换行输出
-print( x )
-print( y )
+print(x)
+print(y)
 
 print('---------')
 # 不换行输出
-print( x, end=" " )
-print( y, end=" " )
+print(x, end=" ")
+print(y, end=" ")
 print()
 
 '''
@@ -72,7 +72,7 @@ print("----------")
 list=[1,2,3,4]
 it = iter(list)    # 创建迭代器对象
 for x in it:
-    print (x, end=" ")
+    print(x, end=" ")
     
 import sys         # 引入 sys 模块
  
@@ -91,4 +91,3 @@ print()
 print("----------#")
 
 
-        
